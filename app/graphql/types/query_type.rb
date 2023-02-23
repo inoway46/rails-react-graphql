@@ -4,5 +4,6 @@ module Types
     include GraphQL::Types::Relay::HasNodesField
 
     field :books, resolver: Queries::Books
+    field :book, resolver: Queries::Book
   end
 end
