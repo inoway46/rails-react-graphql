@@ -17,4 +17,5 @@ end
 group :development do
   gem 'graphiql-rails'
   gem 'sass-rails'
+  gem 'solargraph'
 end
